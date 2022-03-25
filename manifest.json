@@ -1,0 +1,23 @@
+{
+    "name": "Background changer",
+    "description": "Change your background color!",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+      },
+    "permissions": ["storage"],
+    "action": 
+    {
+        "default_popup": "popup.html",
+        "default_icon":{
+            "32":  "/images/Screen32.png",
+            "128": "/images/Screen128.png"
+        }
+
+    },
+    "icons": {
+        "32": "/images/Screen32.png",
+        "128": "/images/Screen128.png"
+    }
+  }
